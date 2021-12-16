@@ -1,0 +1,30 @@
+<p>
+    <label for="loginPassword">Password</label>
+    <input id="loginPassword" name="loginPassword" type="password" required>
+</p>
+
+<button type="submit" name="loginButton">LOG IN</button>
+<?php echo"abc"; ?>
+....................php code............................................
+<?php
+if(isset($_POST['loginButton'])) {
+	echo"button pressed";
+}
+?>
+...................................handler file ..............................................
+* create handler folder for creating library 
+file name :- login-handler.php
+<?php
+if(isset($_POST['loginButton'])) {
+	//Login button was pressed
+	
+}
+?>
+
+*call by :- <?php 
+include("includes/handlers/register-handler.php")
+?>
+
+call in in register.php file 
+..................................................................................
+
